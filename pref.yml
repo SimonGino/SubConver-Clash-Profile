@@ -2,7 +2,7 @@ common:
   api_mode: false
   api_access_token: password
   default_url: []
-  enable_insert: true
+  enable_insert: false
   insert_url: []
   prepend_insert_url: true
   exclude_remarks: ["(到期|流量|时间|官网|产品|平台|坏掉|试用|IPV6|ipv6|漏洞|用户|续费)"]
