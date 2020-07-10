@@ -102,6 +102,7 @@ rulesets:
   - {ruleset: "clash-classic:https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingCN.yaml", group: "🌏 国内媒体"}
   - {ruleset: "clash-classic:https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Advertising.yaml", group: "🛑 广告拦截"}
   - {ruleset: "clash-classic:https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Hijacking.yaml", group: "🛑 广告拦截"}
+  - {ruleset: "clash-classic:https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleFCM.yaml", group: "🔰 节点选择"}
   - {ruleset: "clash-classic:https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml", group: "🔰 节点选择"}
 # - {ruleset: "clash-ipcidr:https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/ChinaIP.yaml", group: "🎯 全球直连"}
   - {ruleset: "clash-classic:https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml", group: "🎯 全球直连"}
