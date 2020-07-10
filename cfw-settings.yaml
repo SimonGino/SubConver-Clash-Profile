@@ -8,22 +8,22 @@ mixinText: |-
       #fake-ip-range: 198.18.0.1/16 #
       nameserver:
          - 223.5.5.5 # 阿里DNS
-         - 114.114.114.114
-         - 8.8.8.8   
-        #- 180.76.76.76 # 百度DNS
+         - 114.114.114.114   
+         #- 180.76.76.76 # 百度DNS
          #- 117.50.11.11 # ONE DNS拦截版 恶意网站拦截、广告过滤
          #- 117.50.10.10 # ONE DNS纯净版 直接返回其真实的响应结果
          #- 114.114.114.114 # 114DNS
-         #- https://dns.alidns.com/dns-query # 阿里 DoH DNS
+         - https://dns.alidns.com/dns-query # 阿里 DoH DNS
          #- https://doh.360.cn/dns-query # 360 DoH DNS
          #- 119.29.29.29 # 腾讯DNS
-      #fallback:
-         # - 8.8.8.8 # 谷歌DNS
+      fallback:
+         - 114.114.114.114
          # - 1.1.1.1 # Cloudflare DNS
          #- tls://dns.rubyfish.cn:853
          #- tls://1.0.0.1:853
          #- tls://dns.google:853
-         #- https://dns.rubyfish.cn/dns-query
+         - https://dns.rubyfish.cn/dns-query
+         - 8.8.8.8 # 谷歌DNS
          #- https://cloudflare-dns.com/dns-query
          #- https://dns.google/dns-query
 connProxy: 1
@@ -55,6 +55,4 @@ bypassText: |+
     - <local>
     - "*.cn"
     - "*-cn*"
-    - "whatismyip"
     
-interfaceName: WLAN 3
