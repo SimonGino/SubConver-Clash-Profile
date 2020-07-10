@@ -3,6 +3,9 @@ DOMAIN-KEYWORD,hekk
 DOMAIN-KEYWORD,mobage
 DOMAIN-KEYWORD,merc
 DOMAIN-KEYWORD,dynamodb
-DOMAIN-KEYWORD,epic
 DOMAIN-KEYWORD,tzfile
 DOMAIN-KEYWORD,wetransfer
+DOMAIN-SUFFIX,epicgames.com
+DOMAIN-SUFFIX,helpshift.com
+DOMAIN-SUFFIX,paragon.com
+DOMAIN-SUFFIX,unrealengine.com
