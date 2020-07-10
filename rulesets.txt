@@ -7,7 +7,7 @@
 🎮 娱乐流量,https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/GamesOrDownload.list
 ;📲 电报信息,rules/ConnersHua/Surge/Ruleset/Telegram.list
 ;🔰 节点选择,rules/ConnersHua/Surge/Ruleset/Global.list
-🔰 节点选择,rules/Myrule.list
+🔰 节点选择,https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/Myrule.list
 🎵 网易云音乐,https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/Myrules/netease.list
 ;🎯 全球直连,rules/ConnersHua/Surge/Ruleset/China.list
 ;🎯 全球直连,rules/NobyDa/Surge/Download.list
