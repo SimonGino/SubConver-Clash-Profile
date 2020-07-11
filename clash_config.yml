@@ -1,5 +1,5 @@
 custom:
-  enable_rule_generator: false
+  enable_rule_generator: true
   overwrite_original_rules: false
 
   proxy_groups:
