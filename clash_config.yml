@@ -29,7 +29,7 @@ custom:
 #  quanx_rule_base: base/quanx.conf
 
    rename_node:
-	 - {import: https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/rename_node.txt}
+   - {import: https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/rename_node.txt}
 #  - {import: snippet/rename.txt}
 
   add_emoji: true
