@@ -21,8 +21,8 @@ common:
   sssub_rule_base: base/all_base.tpl
   proxy_config: SYSTEM
   proxy_ruleset: SYSTEM
-  proxy_subscription: NONE
-  # proxy_subscription: http://127.0.0.1:7890
+  # proxy_subscription: NONE
+  proxy_subscription: http://127.0.0.1:7890
   append_proxy_type: false
 
 userinfo:
@@ -53,7 +53,7 @@ node_pref:
 #  - {script: "function rename(node){}"}
 #  - {script: "path:/path/to/script.js"}
   - {import: https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/rename_node.txt}
-   - {script: 
+  - {script: 
          "function rename(node)
           {
              const info = JSON.parse(node.ProxyInfo);
@@ -66,7 +66,7 @@ node_pref:
   #        "function rename(node)
   #        {
   #           const info = JSON.parse(node.ProxyInfo);
-  #           if(info.Hostname.includes(hgc10))
+  #           if(info.service.includes(hgc10))
   #           return "香港 HGC 10";
   #        }
   #        "
