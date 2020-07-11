@@ -1,0 +1,44 @@
+custom:
+  enable_rule_generator: false
+  overwrite_original_rules: false
+
+  proxy_groups:
+  - {import: https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/groups.txt}
+# - {import: snippets/groups_forcerule.txt}
+
+  rulesets:
+	- {import: https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/rulesets.txt}
+  - {ruleset: "clash-classic:https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/Telegram/Telegram.yaml", group: "📲 电报信息"}
+  - {ruleset: "clash-classic:https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml", group: "🌍 国外媒体"}
+  - {ruleset: "clash-classic:https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml", group: "🌏 国内媒体"}
+  - {ruleset: "clash-classic:https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingCN.yaml", group: "🌏 国内媒体"}
+  - {ruleset: "clash-classic:https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Advertising.yaml", group: "🛑 广告拦截"}
+  - {ruleset: "clash-classic:https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Hijacking.yaml", group: "🛑 广告拦截"}
+  - {ruleset: "clash-classic:https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml", group: "🔰 节点选择"}
+  # - {ruleset: "clash-ipcidr:https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/ChinaIP.yaml", group: "🎯 全球直连"}
+  - {ruleset: "clash-classic:https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml", group: "🎯 全球直连"}
+  - {rule: "GEOIP,CN", group: "🎯 全球直连"}
+  - {rule: "FINAL", group: "🐟 漏网之鱼"}
+#  - {import: snippets/ruleset_remote.txt}
+
+#  clash_rule_base: base/all_base.tpl
+#  surge_rule_base: base/surge.conf
+#  surfboard_rule_base: base/surfboard.conf
+#  mellow_rule_base: base/mellow.conf
+#  quan_rule_base: base/quan.conf
+#  quanx_rule_base: base/quanx.conf
+
+   rename_node:
+	 - {import: https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/rename_node.txt}
+#  - {import: snippet/rename.txt}
+
+  add_emoji: true
+  remove_old_emoji: true
+  emojis:
+  - {import: https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/emoji.txt}
+#  - {import: snippets/emoji.txt}
+
+#  include_remarks: []
+   exclude_remarks: ["(到期|流量|时间|官网|产品|平台|坏掉|试用|IPV6|ipv6|漏洞|用户|续费)"]
+#  template_args:
+#  - {key: clash.dns.port, value: 5353}
