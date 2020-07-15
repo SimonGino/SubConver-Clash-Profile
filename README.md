@@ -1,4 +1,6 @@
 # SubConver-Clash-Profile
-没用的配置文件:
-https%3A%2F%2Fraw.githubusercontent.com%2FNZESupB%2FSubConver-Clash-Profile%2Fmaster%2Fclash_config.yml
+pref.ymal
+rename_node.txt适用于ssrcloud C组精简
+group.txt全手动分组
+
 
