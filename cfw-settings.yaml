@@ -1,58 +1,24 @@
 mixinText: |-
   mixin:
     dns:
-      enable: true # 是否启用dns false
+      enable: true
       ipv6: false
       listen: 0.0.0.0:53
-      enhanced-mode: fake-ip # 模式：redir-host或fake-ip
-      #fake-ip-range: 198.18.0.1/16 #
+      enhanced-mode: fake-ip #redir-host fake-ip
       nameserver:
-         - 223.5.5.5 # 阿里DNS
-         - 114.114.114.114   
+         #- 119.29.29.29 # 腾讯DNS
+         #- 223.5.5.5 # 阿里DNS
+         - 114.114.114.114
+         - tls://dns.rubyfish.cn:853
          #- 180.76.76.76 # 百度DNS
          #- 117.50.11.11 # ONE DNS拦截版 恶意网站拦截、广告过滤
          #- 117.50.10.10 # ONE DNS纯净版 直接返回其真实的响应结果
-         #- 114.114.114.114 # 114DNS
-         - https://dns.alidns.com/dns-query # 阿里 DoH DNS
-         #- https://doh.360.cn/dns-query # 360 DoH DNS
-         #- 119.29.29.29 # 腾讯DNS
+         - https://dns.rubyfish.cn/dns-query
       fallback:
          - 114.114.114.114
          # - 1.1.1.1 # Cloudflare DNS
-         #- tls://dns.rubyfish.cn:853
+         - tls://dns.rubyfish.cn:853
          #- tls://1.0.0.1:853
          #- tls://dns.google:853
          - https://dns.rubyfish.cn/dns-query
-         - 8.8.8.8 # 谷歌DNS
-         #- https://cloudflare-dns.com/dns-query
-         #- https://dns.google/dns-query
-connProxy: 1
-connMode: true
-theme: 0
-systemTheme: false
-bypassText: |+
-  bypass:
-    - localhost
-    - 127.*
-    - 10.*
-    - 172.16.*
-    - 172.17.*
-    - 172.18.*
-    - 172.19.*
-    - 172.20.*
-    - 172.21.*
-    - 172.22.*
-    - 172.23.*
-    - 172.24.*
-    - 172.25.*
-    - 172.26.*
-    - 172.27.*
-    - 172.28.*
-    - 172.29.*
-    - 172.30.*
-    - 172.31.*
-    - 192.168.*
-    - <local>
-    - "*.cn"
-    - "*-cn*"
-    
+
