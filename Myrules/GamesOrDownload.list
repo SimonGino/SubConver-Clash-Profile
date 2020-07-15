@@ -5,6 +5,9 @@ DOMAIN-KEYWORD,merc
 DOMAIN-KEYWORD,dynamodb
 DOMAIN-KEYWORD,tzfile
 DOMAIN-KEYWORD,wetransfer
+#gayhub
+DOMAIN-KEYWORD,github
+DOMAIN-KEYWORD,githubusercontent
 #epic
 DOMAIN-SUFFIX,epicgames.com
 DOMAIN-SUFFIX,helpshift.com
@@ -29,3 +32,14 @@ DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamstat.us
 DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,steamusercontent.com
+#LOLPBE
+DOMAIN-SUFFIX,riotcdn.net
+DOMAIN-SUFFIX,us.ekg.riotgames.com
+DOMAIN-SUFFIX,leagueoflegends.com
+DOMAIN-SUFFIX,vivox.com
+DOMAIN-SUFFIX,akamaihd.net
+DOMAIN-SUFFIX,contentstack.io
+DOMAIN-SUFFIX,newrelic.com
+#育碧
+- DOMAIN-KEYWORD,ubisoft
+- DOMAIN-KEYWORD,ubi
