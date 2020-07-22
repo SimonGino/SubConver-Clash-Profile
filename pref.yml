@@ -52,7 +52,7 @@ node_pref:
 #  - {match: "\\(?((x|X)?(\\d+)(\\.?\\d+)?)((\\s?倍率?)|(x|X))\\)?", replace: "$1x"}
 #  - {script: "function rename(node){}"}
 #  - {script: "path:/path/to/script.js"}
-  - {script: "path:snippets/rename.js"}
+#  - {script: "path:snippets/rename.js"}
   - {import: "snippets/rename_node.txt"}
   # - {import: https://raw.githubusercontent.com/NZESupB/SubConver-Clash-Profile/master/rename_node.txt}
 
