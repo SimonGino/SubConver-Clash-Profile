@@ -1,0 +1,13 @@
+GZCM-HK@GZCM
+丨(\w*(\s)?)*@
+(\[)\s(.*?)\s(\])\s([a-zA-Z]+)\s(\d\d)@$4 $2 $5
+(#Native)@ 原生
+ #Native@原生
+TW@台湾
+(HKT|HK)@香港
+USA@美国
+SGP@新加坡
+JPN@日本
+KR@韩国
+optimization@优化
+Tunnel@隧道
