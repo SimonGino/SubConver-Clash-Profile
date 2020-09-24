@@ -13,4 +13,4 @@
 🔰 节点选择,rules/Myrule.list
 🎯 全球直连,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list
 🎯 全球直连,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/ChinaIP.list
-;🐟 漏网之鱼,[]
+🐟 漏网之鱼,[]FINAL
