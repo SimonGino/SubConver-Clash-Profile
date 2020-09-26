@@ -10,7 +10,7 @@
 🇯🇵 日本`select`(日|沪日)
 🇺🇲 美国`select`(美|中美|沪美)
 🇨🇳 台湾`select`(台)
-🇸🇬 新加坡`select`(坡)
+🇸🇬 新加坡`select`(坡|狮城)
 ;🇷🇺 俄罗斯`select`(俄)
 🇰🇷 韩国`select`(韩)
 ;🇨🇦 加拿大`select`(中加)
