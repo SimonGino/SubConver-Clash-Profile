@@ -10,12 +10,12 @@ DOMAIN-SUFFIX,altema.jp
 DOMAIN-SUFFIX,gamegift.jp
 DOMAIN-SUFFIX,co.jp
 DOMAIN-SUFFIX,merc.wiki
-#TapTap国际版
 DOMAIN-SUFFIX,tap.io
 DOMAIN-SUFFIX,tapdb.net
 DOMAIN-SUFFIX,taplb.com
 #测速
 DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,cdnst.net
 DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN-SUFFIX,fast.com
 #epic
