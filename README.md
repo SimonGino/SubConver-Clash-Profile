@@ -23,6 +23,7 @@ a)  下载subconverter，去[https://github.com/tindy2013/subconverter/releases/
 ![](https://raw.githubusercontent.com/SimonGino/subconverter-Gino/master/image/git1.png)
            	
 b)  再去去我的库下载四份文件[https://github.com/SimonGino/SubConver-Clash-Profile/tree/master/OldPref](https://github.com/SimonGino/SubConver-Clash-Profile/tree/master/OldPref)	
+    或者去这里下载（仅仅策略组和对应的规则不同而已）[https://github.com/NZESupB/SubConver-Clash-Profile/tree/master/OldPref](https://github.com/NZESupB/SubConver-Clash-Profile/tree/master/OldPref)
 
 ![](https://raw.githubusercontent.com/SimonGino/subconverter-Gino/master/image/git2.png)
 
