@@ -6,6 +6,7 @@ Netflix Hulu HBO@*
 Netflix HBO TVB@*
 Netflix@*
 
+Elastic Network Adapter 10@
 C组临时节点 (\d\d)@香港 临时 $1
 
 ;删除倍率
