@@ -46,7 +46,6 @@ CNIX\s\-\s@
 環球全域電訊@HGC
 전라북도 전주시 商宽@全州
 嘉义游戏专线@IPLC
-Elastic Network Adapter 10 Anycast任播@AGA
 
 .*(PVCC).*(\d\d)@香港 $1 $2
 (^(?!\-))(韩国|日本|新加坡|沪港)\s?(IEPL|软银|京畿道板桥|全州|太平洋|AGA).*?\s(\d\d)(\s\*)?@$2 $3 $4${5:-}
@@ -55,3 +54,4 @@ Elastic Network Adapter 10 Anycast任播@AGA
 (香港).*(TGT|HGC)\s(\d\d)@$1 $2 $3
 (中国-)?美国\s?(.{3,6})\s(IEPL|IPLC)?\s?(\d\d)\s(\*)?.*传输@沪美 $2 $4 ${5:-}
 游戏.*(限).*(\d\d)@香港 游戏 $2
+.*Anycast任播.*?@AGA
