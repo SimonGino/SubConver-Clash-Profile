@@ -46,7 +46,7 @@ CNIX\s\-\s@
 環球全域電訊@HGC
 전라북도 전주시 商宽@全州
 嘉义游戏专线@IPLC
-\dElastic Network Adapter 10 Anycast任播@AGA
+澳门 Elastic Network Adapter 10 Gbps Anycast任播@澳门 AGA
 
 .*(PVCC).*(\d\d)@香港 $1 $2
 (^(?!\-))(韩国|日本|新加坡|沪港)\s?(IEPL|软银|京畿道板桥|全州|太平洋).*?\s(\d\d)(\s\*)?@$2 $3 $4${5:-}
