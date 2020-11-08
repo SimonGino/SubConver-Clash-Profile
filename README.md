@@ -1,6 +1,6 @@
 # SubConver-Clash-Profile
 转换网址： https://acl4ssr-sub.github.io/
-## 薯条C组 Clash for win 订阅本地转换教程
+## 薯条 Clash for win 订阅本地转换教程
  - 特别感谢telegram用户@NXwow，这些都是他教我的，并且节点重命名都是他写的。
  - 订阅转换包含节点重命名，不带自动测速和负载均衡等等。
  - 以下教程仅是出于个人爱好，不保证本教程的完全正确性，如有异常，概不负责。
