@@ -28,7 +28,7 @@ b)  先打开文件夹里面的subconverter.exe文件，之后再打开订阅转
 
 c)  在远程配置那一栏填入地址：[https://raw.githubusercontent.com/SimonGino/SubConver-Clash-Profile/master/outpref.ini](https://raw.githubusercontent.com/SimonGino/SubConver-Clash-Profile/master/outpref.ini)	
 
-![](https://raw.githubusercontent.com/SimonGino/subconverter-Gino/master/image/git2.png)
+![](https://raw.githubusercontent.com/SimonGino/subconverter-Gino/master/image/git6.png)
 
 d)  单击网页生成订阅链接，并一键导入到Clash就可以啦。	
 
