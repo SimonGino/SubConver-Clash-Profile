@@ -32,7 +32,8 @@ c)  在远程配置那一栏填入地址：[https://raw.githubusercontent.com/Si
 
 d)  单击网页生成订阅链接，并一键导入到Clash就可以啦。	
 
-![](https://raw.githubusercontent.com/SimonGino/subconverter-Gino/master/image/git5.png)
+![](https://raw.githubusercontent.com/SimonGino/subconverter-Gino/master/image/git7.png)
+![](https://raw.githubusercontent.com/SimonGino/subconverter-Gino/master/image/git8.png)
 
 **Special thanks to**
 
