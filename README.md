@@ -22,7 +22,7 @@ a)  下载subconverter，去[https://github.com/tindy2013/subconverter/releases/
 
 ![](https://raw.githubusercontent.com/SimonGino/subconverter-Gino/master/image/git1.png)
            	
-b)  先打开文件夹里面的subconverter.exe文件，之后再打开订阅转换站[https://acl4ssr-sub.github.io](https://acl4ssr-sub.github.io)，先选择进阶模式，后端地址改为：本地版（官网复制ssr订阅链接然后把最后sub=1改成sub=2。	
+b)  先打开文件夹里面的subconverter.exe文件，之后再打开订阅转换站[https://acl4ssr-sub.github.io](https://acl4ssr-sub.github.io)，先选择进阶模式，订阅链接就是官网的ssr订阅链接，后端地址改为：本地版
 
 ![](https://raw.githubusercontent.com/SimonGino/subconverter-Gino/master/image/git4.png)
 
