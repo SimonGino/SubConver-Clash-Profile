@@ -27,6 +27,5 @@
 🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
-🎯 全球直连,https://raw.githubusercontent.com/SimonGino/SubConver-Clash-Profile/master/Myrules/Emby.list
 🎯 全球直连,[]GEOIP,CN
 🐟 漏网之鱼,[]FINAL
