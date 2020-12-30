@@ -1,5 +1,5 @@
 [Script]
-Bili Region = type=http-response,pattern=https:\/\/api\.bilibili\.com\/pgc\/view\/(v\d\/)?app\/season\?access_key,requires-body=1,max-size=0,control-api=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js
+Bili Region = type=http-response,pattern=https:\/\/api\.bilibili\.com\/pgc\/view\/(v\d\/)?app\/season\?access_key,requires-body=1,max-size=0,control-api=1,script-path=https://raw.githubusercontent.com/SimonGino/SubConver-Clash-Profile/master/Bilibli.js
 
 [MITM]
 hostname = api.bilibili.com
