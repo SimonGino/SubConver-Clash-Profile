@@ -6,7 +6,7 @@ hostname = api.bilibili.com
 ****************************
 */
 
-const Group = $persistentStore.read('BiliArea_Policy') || '📺 哔哩哔哩'; //Your blibli policy group name.
+const Group = $persistentStore.read('📺 哔哩哔哩') || '📺 哔哩哔哩'; //Your blibli policy group name.
 const CN = $persistentStore.read('🎯 全球直连') || 'DIRECT'; //Your China sub-policy name.
 const TW = $persistentStore.read('🇨🇳 台湾节点') || '🇹🇼 sub-policy'; //Your Taiwan sub-policy name.
 const HK = $persistentStore.read('🇭🇰 香港节点') || '🇭🇰 sub-policy'; //Your HongKong sub-policy name.
